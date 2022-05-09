@@ -28,6 +28,11 @@ Expected endpoints:
 - /login: Check and send email to authorized users
 - /validate: Verify the link and set the auth cookie
 
+## Live demo
+
+You can find here a demo of just the frontend without auth and with dummy data.
+https://ep-map.static.onboarding.dev/
+
 # Clean architecture iterations
 
 Iteration V1
