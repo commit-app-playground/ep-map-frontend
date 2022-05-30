@@ -31,6 +31,10 @@ var markerIcon = new L.Icon({
 
 const Tag = ({tag}) => <Badge className="text-white mr-1" color={"primary"} key={tag}>{tag}</Badge>
 
+
+/* 
+This is the main component of the application
+*/
 export default function ({ list }) {
   const initPosition = [49.88339002622637, -97.11515064736092];
   const size = useWindowSize();
